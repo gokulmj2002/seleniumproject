@@ -1,0 +1,13 @@
+<suite name="grouping">
+	
+	<test thread-count="5" name="Test">
+	<parameter name="browsers" value="chrome"></parameter>
+	<groups><run><include name="smoke"/></run></groups>
+		<classes>
+
+			<class name="testscript.LoginTest">
+			</class>
+		</classes>
+	</test> <!--
+	Test -->
+</suite>

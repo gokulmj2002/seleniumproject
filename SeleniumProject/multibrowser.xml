@@ -1,0 +1,14 @@
+<suite name="multi browser" parallel="classes">
+<test threadcount="5" name="test1">
+<parameter name="browsers" value="chrome"></parameter>
+<classes>
+<class name="testscript.LoginTest"></class>
+</classes>
+</test>
+<test threadcount="5" name="test2">
+<parameter name="browsers" value="firefox"></parameter>
+<classes>
+<class name="testscript.LoginTest"></class>
+</classes>
+</test>
+</suite>
